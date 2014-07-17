@@ -1,5 +1,5 @@
-Flume Test Source!
-==================
+Flume Test Source
+=================
 
 This Flume source/sink pair is useful for testing the correctness of network transports such as Avro and similar.
 
@@ -22,3 +22,4 @@ The sink has a customisable random seed:
 	a1.sinks.k1.type = com.cloudera.flume.TestSink
 	a1.sinks.k1.seed = 1
  
+Setting the delay to 0 will be required when load testing.
